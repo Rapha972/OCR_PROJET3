@@ -1,0 +1,1 @@
+<?phpnamespace App\class ArticleManager extends ManagerBase{    /**     * @constructeur ArticleManager     */    private function __construct()    {        $this->connect()    }    public function lisposts()    {    }}
