@@ -19,8 +19,7 @@ class ManagerBase
             $db = new PDO(DSN,USER,PWD);
             $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
-            var_dump($db)
-            //return $db;
+            return $db;
         }
         catch(PDOException $e)
         {
