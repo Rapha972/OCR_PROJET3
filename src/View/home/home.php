@@ -45,7 +45,7 @@ ob_start();
 
 
       <?php $content = ob_get_clean();?>
-      <?php require('/PROJET3/scr/View/base.php');?>
+      <?php require('/Applications/MAMP/htdocs/PROJET3/src/View/base.php');?>
 
 
     

@@ -1,7 +1,7 @@
 <?php
 
 
-require('/PROJET3/src/Controller/Frontend/HomeController/HomeController.php');
+require('/Applications/MAMP/Htdocs/PROJET3/src/Controller/Frontend/HomeController/HomeController.php');
 
 use App\Controller\Frontend\HomeController\HomeController;
 

@@ -6,8 +6,7 @@ class HomeController
 {
    public function homePage()
    {
-      require('/PROJET3/src/View/home/home.php');
-    
+      require('/Applications/MAMP/htdocs/PROJET3/src/View/home/home.php');
    }
     
     
