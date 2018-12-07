@@ -13,13 +13,13 @@ class ManagerBase
 
         define('DSN','msql:host=localhost;dbname = BLOG; charset = utf8');
         define('USER','root');
-        define('PWD','root');
+        define('PWD','');
         try
         {
             $db = new PDO(DSN,USER,PWD);
             $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
-            return $db;
+
         }
         catch(PDOException $e)
         {

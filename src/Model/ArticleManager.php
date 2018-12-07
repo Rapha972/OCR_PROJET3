@@ -1,1 +1,1 @@
-<?phpnamespace App\class ArticleManager extends ManagerBase{    /**     * @constructeur ArticleManager     */    private function __construct()    {        return $this->connect()    }    public function lisposts()    {    }}
+<?phpnamespace App\Controller\Model\Manager.phpclass ArticleManager extends ManagerBase    {    /**     * @constructeur ArticleManager     */    private function __construct()    {        return $this->connect()    }    public function lisposts()    {    }}
