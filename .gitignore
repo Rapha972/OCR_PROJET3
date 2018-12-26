@@ -4,3 +4,6 @@
 /bower_components/
 /node_modules/
 /vendor/
+vendor/
+.idea/
+src/Model/ManageBase.php

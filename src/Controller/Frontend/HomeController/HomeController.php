@@ -2,11 +2,17 @@
 
 namespace App\Controller\Frontend\HomeController;
 
+use App\Model\PostManager;
+
 class HomeController
 {
    public function homePage()
    {
-      require('/Applications/MAMP/htdocs/PROJET3/src/View/home/home.php');
+       $getPosts = new PostManager();
+       $posts = $getPosts->getPosts();
+
+require('src/View/home/home.php');
+
    }
     
     
