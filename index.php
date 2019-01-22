@@ -34,3 +34,4 @@ elseif($url ==='about'){
 else {
     header ('Location:accueil');
     }
+*/

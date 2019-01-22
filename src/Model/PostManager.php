@@ -13,16 +13,28 @@ public function __construct(){
 }
 
 
-    public function getPosts()
+    /*public function getPosts()
     {
        $req = $this->db->query('SELECT * FROM post');
        $result = $req->fetch();
-       var_dump($result);
-       die();
        return $result;
-    }
+    }*/
 
+    public function getAllPosts(){
 
+        $req= $this->db->query('SELECT id, title, content, DATE_FORMAT(date_crea,\'%d/%m/%y\') 
+  as dateCrea FROM post ORDER BY id');
+        $results = $req->fetchAll(PDO::FETCH_ASSOC);
+
+        $posts = [];
+        foreach($results as $data){
+            $postObject = new Post($data);
+            $posts[] = $postObject;
+
+        }
+
+        return $posts;
+}
     /* récupération du Chapitre en fonction de l'Id
 
     public function getPost($postId)

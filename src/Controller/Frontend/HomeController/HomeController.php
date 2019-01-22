@@ -9,8 +9,8 @@ class HomeController
    public function homePage()
    {
        $getPosts = new PostManager();
-       $posts = $getPosts->getPosts();
-
+       //$posts = $getPosts->getPosts();
+       $result = $getPosts->getAllPosts();
 require('src/View/home/home.php');
 
    }
