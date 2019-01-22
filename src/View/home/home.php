@@ -11,10 +11,8 @@ ob_start();
 <style>
    .jumbotron{
        background-image:url("https://cdn.history.com/sites/2/2013/11/alaska-mt-mckinley-P.jpeg");
+       background-size:cover;
 
-       /*background-image:url("https://cdn.history.com/sites/2/2013/11/alaska-salmon-jumping-P.jpeg");
-       */background-size:cover;
-       /*color:white;*/
    }
 
 </style>

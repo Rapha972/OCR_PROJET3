@@ -4,14 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3edfc08c-d0f6-4458-adc7-82d699cde72d" name="Default Changelist" comment="&quot;mise à jour des models mais la fonction query ne fonctionne pas&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Model/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Frontend/HomeController/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Frontend/HomeController/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ManagerBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ManagerBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PostManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PostManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/base.php" afterDir="false" />
+    <list default="true" id="3edfc08c-d0f6-4458-adc7-82d699cde72d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/View/home/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/home/home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,8 +147,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/View/home/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#884#891#0#HTML" expanded="true" />
               </folding>
@@ -393,12 +386,20 @@
       <workItem from="1545653324309" duration="7529000" />
       <workItem from="1546216888743" duration="9010000" />
       <workItem from="1546996331600" duration="11162000" />
-      <workItem from="1548076919127" duration="8963000" />
+      <workItem from="1548076919127" duration="9548000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;mise à jour des models mais la fonction query ne fonctionne pas&quot;">
+      <created>1548174543305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548174543305</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140692000" />
+    <option name="totallyTimeSpent" value="141277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,8 +626,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/home/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#884#891#0#HTML" expanded="true" />
           </folding>
