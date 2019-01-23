@@ -42,7 +42,7 @@
     
     </main>
    <footer class="container">
-      <p>Copyright Company 2017-2018</p>
+      <p>Copyright Company  Korossol-media 2017-2018</p>
     </footer>
 
     <!-- Bootstrap core JavaScript

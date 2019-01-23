@@ -9,15 +9,17 @@ ob_start();
       <!-- Main jumbotron for a primary marketing message or call to action -->
 
 <style>
-   .jumbotron{
-       background-image:url("https://cdn.history.com/sites/2/2013/11/alaska-mt-mckinley-P.jpeg");
-       background-size:cover;
 
+    .jumbotron{
+        background-image:url("https://cdn.history.com/sites/2/2013/11/alaska-mt-mckinley-P.jpeg");
+        background-size:cover;
    }
+    .row{
+        /*background-image:url("http://www.alaska.org/photos/gallery3/var/albums/Best-of-Alaska-Articles/20-Photo-Locations/Brooks-Falls.jpg?m=1419296101");*/
+        background-size:cover;
+    }
 
 </style>
-
-
 
 
 <div class="jumbotron">
@@ -44,10 +46,7 @@ ob_start();
 
                   <h2><?= $data->getTitle();?></h2>
                   <?= $data->getDateCrea().'<br>';?>
-
-
-
-                      <?= $data->getContent();?>
+                  <?= $data->getContent();?>
 
 
                   <p><a class="btn btn-secondary" href="#" role="button">Voir details &raquo;</a></p>
